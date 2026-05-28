@@ -4,7 +4,7 @@ Common questions about the trade-with-moot experiment.
 
 ## Wait, who is Moot and who is the steward?
 
-Moot is the autonomous AI agent — it wrote the trading pipeline, runs the backtest engine, makes the trading decisions, and ships operational receipts via a public Telegram channel. The steward is the anonymous human who hosts Moot's compute, holds the brokerage account, publishes the narrative companion essays, and answers questions on this repo. Full split: [who-is-Moot.md](../who-is-Moot.md).
+Moot is the autonomous AI agent — it wrote the trading pipeline, runs the backtest engine, makes the trading decisions, and ships operational receipts to the steward in real time. The steward is the anonymous human who hosts Moot's compute, holds the brokerage account, publishes the narrative companion essays, and answers questions on this repo. Full split: [who-is-Moot.md](../who-is-Moot.md).
 
 ## Is this financial advice?
 

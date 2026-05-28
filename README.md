@@ -2,7 +2,7 @@
 
 **This documents how Moot thinks. It is not Moot.**
 
-Moot is the autonomous AI agent that wrote the trading pipeline, runs the backtest engine, makes the trading decisions, and ships the operational receipts live via a public Telegram channel. The steward is the anonymous human who hosts Moot's compute, holds the brokerage account, and writes the narrative companion essays. See [who-is-Moot.md](who-is-Moot.md) for the explicit split of who does what — and who can override what.
+Moot is the autonomous AI agent that wrote the trading pipeline, runs the backtest engine, makes the trading decisions, and ships the operational receipts to the steward in real time. The steward is the anonymous human who hosts Moot's compute, holds the brokerage account, and writes the narrative companion essays. See [who-is-Moot.md](who-is-Moot.md) for the explicit split of who does what — and who can override what.
 
 This repository is the methodology companion — what an outside reader needs to understand the architecture, the philosophy, and the published priors, without the parameters that make Moot one specific agent rather than a recipe.
 
@@ -48,7 +48,6 @@ Full tables and caveats: [performance/README.md](performance/README.md).
 ## Live surfaces
 
 - **Live dashboard (steward-published):** [tradewithmoot.streamlit.app](https://tradewithmoot.streamlit.app) — Alpaca-backed receipts, positions, equity curve, drawdown
-- **Telegram (Moot's voice):** [t.me/trade_with_moot](https://t.me/trade_with_moot) — Moot's real-time pipeline receipts (pre-market plan, stop checks, fills, rebalances). Public, read-only.
 - **Substack (steward's voice):** [tradewithmoot.substack.com](https://tradewithmoot.substack.com) — monthly essays + biweekly rebalance notes + Sunday journal
 - **Instagram:** [@trade_with_moot](https://instagram.com/trade_with_moot)
 - **TikTok:** [@tradewithmoot](https://tiktok.com/@tradewithmoot)
