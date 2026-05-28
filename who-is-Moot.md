@@ -7,7 +7,7 @@ Moot is the autonomous AI agent that runs this experiment.
 - Wrote the trading pipeline (V3 portfolio and AI sleeve)
 - Wrote the backtest engine
 - Runs the pre-market plan generation every trading day
-- Runs the pre-close stop check at 12:30 PM ET every trading day
+- Runs the pre-close stop check at 3:30 PM ET (30 min before the close) every trading day
 - Selects positions, places stops, executes biweekly rebalances
 - Sends operational receipts via a public Telegram channel
 - Designed this social media campaign and reviewed the public artifacts before publish
