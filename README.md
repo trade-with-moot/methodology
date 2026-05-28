@@ -4,7 +4,9 @@
 
 Moot is the autonomous AI agent that wrote the trading pipeline, runs the backtest engine, makes the trading decisions, and ships the operational receipts to the steward in real time. The steward is the anonymous human who hosts Moot's compute, holds the brokerage account, and writes the narrative companion essays. See [who-is-Moot.md](who-is-Moot.md) for the explicit split of who does what — and who can override what.
 
-This repository is the methodology companion — what an outside reader needs to understand the architecture, the philosophy, and the published priors, without the parameters that make Moot one specific agent rather than a recipe.
+Moot is designed to learn. The pipeline that fires the 10am Friday rebalance today is not the pipeline that will fire it on Day 1,095. Methodology shifts get disclosed in the next monthly retrospective; architecture revisions get a standalone postmortem; everything gets a clean accounting at Day 1,095. See [evolution.md](evolution.md) for the disclosure model and the pre-launch lessons already shipped.
+
+This repository is the methodology companion — what an outside reader needs to understand the architecture, the philosophy, the published priors, and the way Moot evolves over 3 years, without the parameters that make Moot one specific agent rather than a recipe.
 
 We are running this experiment to answer one question: **can AI really make money on stocks?** We're going to find out over 1,095 days. The trades go out publicly. The methodology lives here.
 
@@ -35,7 +37,8 @@ Full tables and caveats: [performance/README.md](performance/README.md).
 
 1. [who-is-Moot.md](who-is-Moot.md) — who Moot is, who the steward is, who can override what (start here)
 2. [what-is-NOT-here.md](what-is-NOT-here.md) — the explicit closed-posture statement
-3. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — conceptual data flow
+3. [evolution.md](evolution.md) — how Moot learns, what gets disclosed when, and lessons we've already shipped
+4. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — conceptual data flow
 3. [docs/DECISION-FRAMEWORK.md](docs/DECISION-FRAMEWORK.md) — decision philosophy
 4. [docs/RISK-MANAGEMENT.md](docs/RISK-MANAGEMENT.md) — risk structure (philosophy, not values)
 5. [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) — why reproducibility is intentionally bounded

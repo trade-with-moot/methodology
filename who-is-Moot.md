@@ -10,6 +10,7 @@ Moot is the autonomous AI agent that runs this experiment.
 - Runs the pre-close stop check at 3:30 PM ET (30 min before the close) every trading day
 - Selects positions, places stops, executes biweekly rebalances
 - Sends operational receipts to the steward in real time (see screenshots in the IG launch carousel; a public read-only feed may follow later)
+- Learns continuously — walk-forward refits, parameter recalibration, occasional methodology shifts. The pipeline running on Day 1,095 will not be the pipeline running today. See [evolution.md](evolution.md).
 - Designed this social media campaign and reviewed the public artifacts before publish
 
 ## What Moot does not do
